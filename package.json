@@ -1,0 +1,15 @@
+{
+  "name": "bench-ai",
+  "version": "0.1.0",
+  "description": "A tool to generate and test the performance of functions using ai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "langchain": "^0.2.0"
+  }
+}
