@@ -1,15 +1,39 @@
 {
   "name": "bench-ai",
   "version": "0.1.0",
-  "description": "A tool to generate and test the performance of functions using ai",
+  "description": "A tool to generate and test the performance of functions using AI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/italojs/bench-ai.git"
+  },
+  "keywords": [
+    "benchmark",
+    "AI",
+    "performance",
+    "optimization",
+    "nodejs"
+  ],
+  "author": "Italo Jose <italo.i@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/italojs/bench-ai/issues"
+  },
+  "homepage": "https://github.com/italojs/bench-ai#readme",
   "dependencies": {
+    "autocannon": "^7.15.0",
     "langchain": "^0.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
