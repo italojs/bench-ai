@@ -13,8 +13,8 @@ AI Benchmark Generator is a Node.js library that generates optimized benchmark c
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/aibenchmarkgenerator.git
-   cd aibenchmarkgenerator
+   git clone https://github.com/italojs/bench-ai.git
+   cd bench-ai
    ```
 
 2. Install dependencies:
