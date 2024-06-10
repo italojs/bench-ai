@@ -117,6 +117,11 @@ The library supports a wide range of programming languages as defined in `extens
 
 For a complete list, refer to the `extensions.json` file.
 
+# Next features
+- support input/output example
+- Integration with [instant-bench-agent](https://github.com/Instant-Bench/instant-bench-agent)
+- Plugin for neovim and vscode
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
